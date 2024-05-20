@@ -23,14 +23,14 @@ body {
     border-radius: 15px;
     box-shadow: 8px 8px rgb(0, 0, 0);
     overflow: hidden;
-    width: 375px;
+    width: 380px;
     text-align: left;
 }
 
 .card-image img {
-    width: 87%;
+    width: 90%;
     display: block;
-    margin: 25px auto 0 auto;
+    margin: 20px auto 0 auto;
     border-radius: 10px;
 }
 
@@ -41,13 +41,13 @@ body {
 .badge {
     background-color: hsl(47, 88%, 63%);
     color: #000;
+    margin-bottom: -5px;
     padding: 5px 10px;
     border-radius: 5px;
     font-family: Figtree;
     font-size: 16px;
     font-weight: 800;
     display: inline-block;
-    margin-bottom: 0;
     cursor: pointer;
 }
 
@@ -63,7 +63,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     color: #000;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -71,7 +72,7 @@ h2 {
     font-weight: 800;
     font-size: 24px;
     margin: 10px 0;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 h2:hover{
@@ -82,6 +83,7 @@ h2:hover{
 p {
     font-family: Figtree;
     font-size: 16px;
+    line-height: 1.5;
     color: #333;
 }
 
@@ -92,12 +94,12 @@ p {
 .author {
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .author img {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -105,7 +107,7 @@ p {
 .author p {
     font-family: Figtree;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
     margin: 0;
 }
